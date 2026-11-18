@@ -31,7 +31,8 @@
         "zh-TW": "串連你的空間，體驗統一掌控",
         "ru-RU": "Единое управление вашим пространством",
         "pt-BR": "Uma experiência conectada para o seu espaço"
-      }
+      },
+      "version": "1.0.0"
     },
     {
       "slot": "card1",
@@ -63,7 +64,8 @@
         "zh-TW": "小螢幕，展現你的個性",
         "ru-RU": "Маленький экран с вашим характером",
         "pt-BR": "Uma pequena tela com a sua personalidade"
-      }
+      },
+      "version": "1.0.0"
     },
     {
       "slot": "card2",
@@ -95,7 +97,8 @@
         "zh-TW": "讓硬體融入你的空間",
         "ru-RU": "Оборудование для вашего пространства",
         "pt-BR": "Hardware que combina com seu espaço"
-      }
+      },
+      "version": "1.0.0"
     },
     {
       "slot": "card3",
@@ -127,8 +130,9 @@
         "zh-TW": "發現新品與最新消息",
         "ru-RU": "Знакомьтесь с новинками и новостями",
         "pt-BR": "Descubra novidades e produtos"
-      }
+      },
+      "version": "1.0.0"
     }
   ],
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
