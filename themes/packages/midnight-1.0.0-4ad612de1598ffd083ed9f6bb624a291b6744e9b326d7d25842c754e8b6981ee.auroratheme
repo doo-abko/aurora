@@ -1,0 +1,50 @@
+{
+  "format": "aurora-device-theme",
+  "schemaVersion": 1,
+  "packageId": "midnight",
+  "version": "1.0.0",
+  "id": "midnight",
+  "name": "Midnight",
+  "sourceId": "template",
+  "sourceSize": {
+    "width": 480,
+    "height": 480
+  },
+  "background": {
+    "schemaVersion": 1,
+    "name": "Midnight",
+    "format": "square",
+    "size": {
+      "width": 480,
+      "height": 480
+    },
+    "background": "#16191f",
+    "accent": "#eef4ff",
+    "widgets": [
+      {
+        "id": "clock",
+        "type": "clock",
+        "x": 0.5,
+        "y": 0.4,
+        "fontSize": 64,
+        "text": ""
+      }
+    ]
+  },
+  "widgets": {
+    "enabled": true,
+    "items": []
+  },
+  "mini": {
+    "enabled": false,
+    "programId": "little-room-cat",
+    "options": {},
+    "order": [],
+    "selected": []
+  },
+  "game": {
+    "enabled": false,
+    "packageId": "league-of-legends"
+  },
+  "assets": {}
+}

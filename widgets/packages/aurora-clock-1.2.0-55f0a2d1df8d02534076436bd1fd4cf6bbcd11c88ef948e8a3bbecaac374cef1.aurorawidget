@@ -1,0 +1,65 @@
+{
+  "format": "aurora-widget",
+  "schemaVersion": 1,
+  "widget": {
+    "id": "aurora-clock",
+    "version": "1.2.0",
+    "name": {
+      "ko-KR": "시계",
+      "en-US": "Clock",
+      "ja-JP": "時計",
+      "zh-CN": "时钟",
+      "zh-TW": "時鐘",
+      "ru-RU": "Часы",
+      "pt-BR": "Relógio"
+    },
+    "api": {
+      "provider": "clock",
+      "cost": "free",
+      "documentation": "",
+      "attribution": "",
+      "endpoint": null,
+      "authorization": "none",
+      "scopes": [],
+      "refreshSeconds": 0
+    },
+    "icon": "clock",
+    "size": {
+      "w": 2,
+      "h": 1
+    },
+    "minSize": {
+      "w": 1,
+      "h": 1
+    },
+    "maxSize": {
+      "w": 4,
+      "h": 8
+    },
+    "fields": [
+      {
+        "bind": "value",
+        "size": 0.35
+      },
+      {
+        "bind": "date",
+        "size": 0.16
+      }
+    ],
+    "artwork": {
+      "icon": [
+        {
+          "d": "M12 3a9 9 0 1 0 0 18a9 9 0 1 0 0-18",
+          "stroke": "#ffffff",
+          "width": 1.7
+        },
+        {
+          "d": "M12 7v5l3 2",
+          "stroke": "#ffffff",
+          "width": 1.7
+        }
+      ]
+    }
+  },
+  "sha256": "18a813d081bd39ee46df6d5595aac8e444507ae0c7f81bcf1832e8fbbf1aed53"
+}

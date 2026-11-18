@@ -1,0 +1,126 @@
+{
+  "format": "aurora-widget-catalog",
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "aurora-agenda",
+      "version": "1.2.0",
+      "name": {
+        "ko-KR": "일정",
+        "en-US": "Agenda",
+        "ja-JP": "予定",
+        "zh-CN": "日程",
+        "zh-TW": "行程",
+        "ru-RU": "Расписание",
+        "pt-BR": "Agenda"
+      },
+      "url": "packages/aurora-agenda-1.2.0-d8e8a4f029cafbd696eed0554791a8e0f83f9ff248d55b98f32cc46981657d14.aurorawidget",
+      "sha256": "d8e8a4f029cafbd696eed0554791a8e0f83f9ff248d55b98f32cc46981657d14"
+    },
+    {
+      "id": "aurora-calendar",
+      "version": "1.2.0",
+      "name": {
+        "ko-KR": "캘린더",
+        "en-US": "Calendar",
+        "ja-JP": "カレンダー",
+        "zh-CN": "日历",
+        "zh-TW": "日曆",
+        "ru-RU": "Календарь",
+        "pt-BR": "Calendário"
+      },
+      "url": "packages/aurora-calendar-1.2.0-4f684cea4c37d7d176f1e1c14345bd42bd5e3691e091d033f3ba07d720af6cc0.aurorawidget",
+      "sha256": "4f684cea4c37d7d176f1e1c14345bd42bd5e3691e091d033f3ba07d720af6cc0"
+    },
+    {
+      "id": "aurora-clock",
+      "version": "1.2.0",
+      "name": {
+        "ko-KR": "시계",
+        "en-US": "Clock",
+        "ja-JP": "時計",
+        "zh-CN": "时钟",
+        "zh-TW": "時鐘",
+        "ru-RU": "Часы",
+        "pt-BR": "Relógio"
+      },
+      "url": "packages/aurora-clock-1.2.0-55f0a2d1df8d02534076436bd1fd4cf6bbcd11c88ef948e8a3bbecaac374cef1.aurorawidget",
+      "sha256": "55f0a2d1df8d02534076436bd1fd4cf6bbcd11c88ef948e8a3bbecaac374cef1"
+    },
+    {
+      "id": "aurora-exchange",
+      "version": "1.2.0",
+      "name": {
+        "ko-KR": "환율",
+        "en-US": "Exchange rates",
+        "ja-JP": "為替",
+        "zh-CN": "汇率",
+        "zh-TW": "匯率",
+        "ru-RU": "Курсы валют",
+        "pt-BR": "Câmbio"
+      },
+      "url": "packages/aurora-exchange-1.2.0-561e585146bd87f847958ea4938da867067e946d2fb7012d0133a28b94290664.aurorawidget",
+      "sha256": "561e585146bd87f847958ea4938da867067e946d2fb7012d0133a28b94290664"
+    },
+    {
+      "id": "aurora-notes",
+      "version": "1.2.0",
+      "name": {
+        "ko-KR": "메모장",
+        "en-US": "Notes",
+        "ja-JP": "メモ",
+        "zh-CN": "便笺",
+        "zh-TW": "記事本",
+        "ru-RU": "Заметки",
+        "pt-BR": "Notas"
+      },
+      "url": "packages/aurora-notes-1.2.0-ddda3f93fce7eda4a1b5b3e70f87720777307e36e7d56383b5984e55498063ec.aurorawidget",
+      "sha256": "ddda3f93fce7eda4a1b5b3e70f87720777307e36e7d56383b5984e55498063ec"
+    },
+    {
+      "id": "aurora-stocks",
+      "version": "1.2.0",
+      "name": {
+        "ko-KR": "주식",
+        "en-US": "Stocks",
+        "ja-JP": "株価",
+        "zh-CN": "股票",
+        "zh-TW": "股票",
+        "ru-RU": "Акции",
+        "pt-BR": "Ações"
+      },
+      "url": "packages/aurora-stocks-1.2.0-b08ed669b60170f90311774076ab039de0b1e9a8eb527ed36f21bd8af75a05c6.aurorawidget",
+      "sha256": "b08ed669b60170f90311774076ab039de0b1e9a8eb527ed36f21bd8af75a05c6"
+    },
+    {
+      "id": "aurora-temperature",
+      "version": "1.2.0",
+      "name": {
+        "ko-KR": "온도",
+        "en-US": "Temperature",
+        "ja-JP": "温度",
+        "zh-CN": "温度",
+        "zh-TW": "溫度",
+        "ru-RU": "Температура",
+        "pt-BR": "Temperatura"
+      },
+      "url": "packages/aurora-temperature-1.2.0-25176e309c9a2c891d75e21e85ad6455e55ca8cfc01ebe2512ce22bc8b042dac.aurorawidget",
+      "sha256": "25176e309c9a2c891d75e21e85ad6455e55ca8cfc01ebe2512ce22bc8b042dac"
+    },
+    {
+      "id": "aurora-weather",
+      "version": "1.2.0",
+      "name": {
+        "ko-KR": "날씨",
+        "en-US": "Weather",
+        "ja-JP": "天気",
+        "zh-CN": "天气",
+        "zh-TW": "天氣",
+        "ru-RU": "Погода",
+        "pt-BR": "Clima"
+      },
+      "url": "packages/aurora-weather-1.2.0-7d162a1fd80db162827cde8d36ddf9e468e3db0ab1987c23bf5cc0a7737d76c7.aurorawidget",
+      "sha256": "7d162a1fd80db162827cde8d36ddf9e468e3db0ab1987c23bf5cc0a7737d76c7"
+    }
+  ]
+}

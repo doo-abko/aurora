@@ -1,0 +1,181 @@
+{
+  "format": "aurora-widget",
+  "schemaVersion": 1,
+  "widget": {
+    "id": "aurora-weather",
+    "version": "1.2.0",
+    "name": {
+      "ko-KR": "날씨",
+      "en-US": "Weather",
+      "ja-JP": "天気",
+      "zh-CN": "天气",
+      "zh-TW": "天氣",
+      "ru-RU": "Погода",
+      "pt-BR": "Clima"
+    },
+    "api": {
+      "provider": "weather",
+      "cost": "free",
+      "documentation": "https://api.met.no/doc/TermsOfService",
+      "attribution": "Data from MET Norway",
+      "endpoint": "https://api.met.no/weatherapi/locationforecast/2.0/compact",
+      "authorization": "none",
+      "scopes": [],
+      "refreshSeconds": 900
+    },
+    "icon": "weather",
+    "size": {
+      "w": 2,
+      "h": 2
+    },
+    "minSize": {
+      "w": 2,
+      "h": 2
+    },
+    "maxSize": {
+      "w": 4,
+      "h": 8
+    },
+    "fields": [
+      {
+        "bind": "title",
+        "size": 0.1
+      },
+      {
+        "bind": "value",
+        "size": 0.22
+      },
+      {
+        "bind": "detail",
+        "size": 0.1
+      },
+      {
+        "bind": "status",
+        "size": 0.09
+      }
+    ],
+    "artwork": {
+      "icon": [
+        {
+          "d": "M8 3v2M3 8h2M4 4l2 2M12 4l-1 2",
+          "stroke": "#ffffff",
+          "width": 1.7
+        },
+        {
+          "d": "M10 8a3 3 0 1 0-5 3",
+          "stroke": "#ffffff",
+          "width": 1.7
+        },
+        {
+          "d": "M7 20a4 4 0 1 1 0-8a5 5 0 0 1 10-1a4.5 4.5 0 1 1 2 9Z",
+          "stroke": "#ffffff",
+          "width": 1.7
+        }
+      ],
+      "weather": {
+        "clear": [
+          {
+            "d": "M48 12v7M48 69v7M16 44h7M73 44h7M25 21l5 5M66 62l5 5M25 67l5-5M66 26l5-5",
+            "stroke": "#FFC85D",
+            "width": 5
+          },
+          {
+            "d": "M48 25a19 19 0 1 0 0 38a19 19 0 1 0 0-38",
+            "fill": "#FFD76B"
+          }
+        ],
+        "partly": [
+          {
+            "d": "M48 12v7M48 69v7M16 44h7M73 44h7M25 21l5 5M66 62l5 5M25 67l5-5M66 26l5-5",
+            "stroke": "#FFC85D",
+            "width": 5
+          },
+          {
+            "d": "M48 25a19 19 0 1 0 0 38a19 19 0 1 0 0-38",
+            "fill": "#FFD76B"
+          },
+          {
+            "d": "M24 66a14 14 0 1 1 0-28a20 20 0 0 1 38-3a16 16 0 1 1 11 31Z",
+            "fill": "#EAF4FF",
+            "transform": "translate(2 9) scale(.94)"
+          },
+          {
+            "d": "M24 66h49a16 16 0 0 0 14-8H15a14 14 0 0 0 9 8Z",
+            "fill": "#BDCEE5",
+            "transform": "translate(2 9) scale(.94)"
+          }
+        ],
+        "cloudy": [
+          {
+            "d": "M24 66a14 14 0 1 1 0-28a20 20 0 0 1 38-3a16 16 0 1 1 11 31Z",
+            "fill": "#EAF4FF"
+          },
+          {
+            "d": "M24 66h49a16 16 0 0 0 14-8H15a14 14 0 0 0 9 8Z",
+            "fill": "#BDCEE5"
+          }
+        ],
+        "rain": [
+          {
+            "d": "M24 66a14 14 0 1 1 0-28a20 20 0 0 1 38-3a16 16 0 1 1 11 31Z",
+            "fill": "#EAF4FF"
+          },
+          {
+            "d": "M24 66h49a16 16 0 0 0 14-8H15a14 14 0 0 0 9 8Z",
+            "fill": "#BDCEE5"
+          },
+          {
+            "d": "M28 75l-4 9M48 75l-4 9M68 75l-4 9",
+            "stroke": "#69BDFF",
+            "width": 5
+          }
+        ],
+        "snow": [
+          {
+            "d": "M24 66a14 14 0 1 1 0-28a20 20 0 0 1 38-3a16 16 0 1 1 11 31Z",
+            "fill": "#EAF4FF"
+          },
+          {
+            "d": "M24 66h49a16 16 0 0 0 14-8H15a14 14 0 0 0 9 8Z",
+            "fill": "#BDCEE5"
+          },
+          {
+            "d": "M27 76v10M22 81h10M48 76v10M43 81h10M69 76v10M64 81h10",
+            "stroke": "#C2E9FF",
+            "width": 3
+          }
+        ],
+        "thunder": [
+          {
+            "d": "M24 66a14 14 0 1 1 0-28a20 20 0 0 1 38-3a16 16 0 1 1 11 31Z",
+            "fill": "#EAF4FF"
+          },
+          {
+            "d": "M24 66h49a16 16 0 0 0 14-8H15a14 14 0 0 0 9 8Z",
+            "fill": "#BDCEE5"
+          },
+          {
+            "d": "M49 64l-9 15h9l-5 13l18-21H51l5-7Z",
+            "fill": "#FFD464"
+          }
+        ],
+        "fog": [
+          {
+            "d": "M24 66a14 14 0 1 1 0-28a20 20 0 0 1 38-3a16 16 0 1 1 11 31Z",
+            "fill": "#EAF4FF"
+          },
+          {
+            "d": "M24 66h49a16 16 0 0 0 14-8H15a14 14 0 0 0 9 8Z",
+            "fill": "#BDCEE5"
+          },
+          {
+            "d": "M20 75h55M28 84h40",
+            "stroke": "#C4D5E6",
+            "width": 5
+          }
+        ]
+      }
+    }
+  },
+  "sha256": "b98887928bc55cdbb9cce2bac84e87dd7d92466285210096d2c0d515d3fbcdea"
+}

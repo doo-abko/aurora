@@ -1,0 +1,77 @@
+{
+  "format": "aurora-widget",
+  "schemaVersion": 1,
+  "widget": {
+    "id": "aurora-stocks",
+    "version": "1.2.0",
+    "name": {
+      "ko-KR": "주식",
+      "en-US": "Stocks",
+      "ja-JP": "株価",
+      "zh-CN": "股票",
+      "zh-TW": "股票",
+      "ru-RU": "Акции",
+      "pt-BR": "Ações"
+    },
+    "api": {
+      "provider": "stocks",
+      "cost": "free",
+      "documentation": "https://m.stock.naver.com/",
+      "attribution": "Npay Securities",
+      "endpoint": "https://m.stock.naver.com/api/stock/{code}/basic",
+      "authorization": "none",
+      "scopes": [],
+      "refreshSeconds": 30,
+      "usEndpoint": "https://api.stock.naver.com/stock/{code}/basic",
+      "searchEndpoint": "https://ac.stock.naver.com/ac",
+      "interface": "public-site-interface",
+      "redistribution": "not-verified"
+    },
+    "icon": "stocks",
+    "size": {
+      "w": 2,
+      "h": 2
+    },
+    "minSize": {
+      "w": 2,
+      "h": 2
+    },
+    "maxSize": {
+      "w": 4,
+      "h": 8
+    },
+    "fields": [
+      {
+        "bind": "value",
+        "size": 0.22
+      },
+      {
+        "bind": "detail",
+        "size": 0.1
+      },
+      {
+        "bind": "date",
+        "size": 0.09
+      },
+      {
+        "bind": "status",
+        "size": 0.09
+      }
+    ],
+    "artwork": {
+      "icon": [
+        {
+          "d": "M3 3v18h18",
+          "stroke": "#ffffff",
+          "width": 1.7
+        },
+        {
+          "d": "M6 15l5-5l4 3l6-9",
+          "stroke": "#ffffff",
+          "width": 1.7
+        }
+      ]
+    }
+  },
+  "sha256": "c93c7b6e698620bd6185e2f93a328f60023fada13546c14a253da9a689e19f91"
+}

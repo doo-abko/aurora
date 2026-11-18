@@ -1,0 +1,74 @@
+{
+  "format": "aurora-widget",
+  "schemaVersion": 1,
+  "widget": {
+    "id": "aurora-exchange",
+    "version": "1.2.0",
+    "name": {
+      "ko-KR": "환율",
+      "en-US": "Exchange rates",
+      "ja-JP": "為替",
+      "zh-CN": "汇率",
+      "zh-TW": "匯率",
+      "ru-RU": "Курсы валют",
+      "pt-BR": "Câmbio"
+    },
+    "api": {
+      "provider": "exchange",
+      "cost": "free",
+      "documentation": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+      "attribution": "European Central Bank (ECB)",
+      "endpoint": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+      "authorization": "none",
+      "scopes": [],
+      "refreshSeconds": 900,
+      "rateType": "daily-reference"
+    },
+    "icon": "exchange",
+    "size": {
+      "w": 2,
+      "h": 2
+    },
+    "minSize": {
+      "w": 2,
+      "h": 2
+    },
+    "maxSize": {
+      "w": 4,
+      "h": 8
+    },
+    "fields": [
+      {
+        "bind": "value",
+        "size": 0.22
+      },
+      {
+        "bind": "detail",
+        "size": 0.1
+      },
+      {
+        "bind": "date",
+        "size": 0.09
+      },
+      {
+        "bind": "status",
+        "size": 0.09
+      }
+    ],
+    "artwork": {
+      "icon": [
+        {
+          "d": "M4 7h16l-4-4M20 17H4l4 4",
+          "stroke": "#ffffff",
+          "width": 1.7
+        },
+        {
+          "d": "M20 7l-4 4M4 17l4-4",
+          "stroke": "#ffffff",
+          "width": 1.7
+        }
+      ]
+    }
+  },
+  "sha256": "cf7263265c7e39389bd6e829daf14cdadb6854a985ab7008b0d750936b42ff5b"
+}

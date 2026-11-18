@@ -1,0 +1,73 @@
+{
+  "format": "aurora-widget",
+  "schemaVersion": 1,
+  "widget": {
+    "id": "aurora-calendar",
+    "version": "1.2.0",
+    "name": {
+      "ko-KR": "캘린더",
+      "en-US": "Calendar",
+      "ja-JP": "カレンダー",
+      "zh-CN": "日历",
+      "zh-TW": "日曆",
+      "ru-RU": "Календарь",
+      "pt-BR": "Calendário"
+    },
+    "api": {
+      "provider": "calendar",
+      "cost": "free",
+      "documentation": "https://developers.google.com/workspace/calendar/api/guides/quota",
+      "attribution": "Google Calendar",
+      "endpoint": "https://www.googleapis.com/calendar/v3/calendars/{calendarId}/events",
+      "authorization": "google-oauth-pkce",
+      "scopes": [
+        "https://www.googleapis.com/auth/calendar.events.readonly"
+      ],
+      "refreshSeconds": 60,
+      "holidays": {
+        "country": "KR",
+        "source": "Google public holidays (official only)",
+        "endpoint": "https://calendar.google.com/calendar/ical/ko.south_korea.official%23holiday%40group.v.calendar.google.com/public/basic.ics",
+        "refreshSeconds": 86400
+      }
+    },
+    "icon": "calendar",
+    "size": {
+      "w": 4,
+      "h": 3
+    },
+    "minSize": {
+      "w": 2,
+      "h": 2
+    },
+    "maxSize": {
+      "w": 4,
+      "h": 8
+    },
+    "fields": [
+      {
+        "bind": "title",
+        "size": 0.1
+      },
+      {
+        "bind": "status",
+        "size": 0.12
+      }
+    ],
+    "artwork": {
+      "icon": [
+        {
+          "d": "M5 5h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z",
+          "stroke": "#ffffff",
+          "width": 1.7
+        },
+        {
+          "d": "M7 3v4M17 3v4M3 10h18M7 14h2M12 14h2M17 14h1M7 18h2M12 18h2",
+          "stroke": "#ffffff",
+          "width": 1.7
+        }
+      ]
+    }
+  },
+  "sha256": "163a6db10a5beae543900f1ff01e27d7fa4e8dfa2025827300f2e7b6d852b662"
+}

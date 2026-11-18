@@ -1,0 +1,36 @@
+{
+  "format": "aurora-theme-catalog",
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "aurora-blue",
+      "name": {
+        "ko-KR": "Aurora blue",
+        "en-US": "Aurora blue"
+      },
+      "version": "1.0.1",
+      "url": "packages/aurora-blue-1.0.1-3030e7cf27360e7f8673ce5418ae4ff0deb3d7cabffa0913562a3934d5353d1e.auroratheme",
+      "sha256": "3030e7cf27360e7f8673ce5418ae4ff0deb3d7cabffa0913562a3934d5353d1e"
+    },
+    {
+      "id": "midnight",
+      "name": {
+        "ko-KR": "Midnight",
+        "en-US": "Midnight"
+      },
+      "version": "1.0.1",
+      "url": "packages/midnight-1.0.1-2f9f2ce3c4c5aeeb8da2f848f7e3a16c2a4f14fc82da786a5c6f8c822c21c21a.auroratheme",
+      "sha256": "2f9f2ce3c4c5aeeb8da2f848f7e3a16c2a4f14fc82da786a5c6f8c822c21c21a"
+    },
+    {
+      "id": "warm-sand",
+      "name": {
+        "ko-KR": "Warm sand",
+        "en-US": "Warm sand"
+      },
+      "version": "1.0.1",
+      "url": "packages/warm-sand-1.0.1-3ca63f2d7e91d3a53347337d1b5ae09444364021ef060d69eaa18b65e547a761.auroratheme",
+      "sha256": "3ca63f2d7e91d3a53347337d1b5ae09444364021ef060d69eaa18b65e547a761"
+    }
+  ]
+}

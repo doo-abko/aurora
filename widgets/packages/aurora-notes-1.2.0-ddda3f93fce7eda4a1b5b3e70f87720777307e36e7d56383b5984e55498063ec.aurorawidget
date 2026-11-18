@@ -1,0 +1,65 @@
+{
+  "format": "aurora-widget",
+  "schemaVersion": 1,
+  "widget": {
+    "id": "aurora-notes",
+    "version": "1.2.0",
+    "name": {
+      "ko-KR": "메모장",
+      "en-US": "Notes",
+      "ja-JP": "メモ",
+      "zh-CN": "便笺",
+      "zh-TW": "記事本",
+      "ru-RU": "Заметки",
+      "pt-BR": "Notas"
+    },
+    "api": {
+      "provider": "notes",
+      "cost": "free",
+      "documentation": "",
+      "attribution": "",
+      "endpoint": null,
+      "authorization": "none",
+      "scopes": [],
+      "refreshSeconds": 0
+    },
+    "icon": "notes",
+    "size": {
+      "w": 2,
+      "h": 2
+    },
+    "minSize": {
+      "w": 1,
+      "h": 1
+    },
+    "maxSize": {
+      "w": 4,
+      "h": 8
+    },
+    "fields": [
+      {
+        "bind": "title",
+        "size": 0.1
+      },
+      {
+        "bind": "note",
+        "size": 0.13
+      }
+    ],
+    "artwork": {
+      "icon": [
+        {
+          "d": "M5 3h14v14l-4 4H5Z",
+          "stroke": "#ffffff",
+          "width": 1.7
+        },
+        {
+          "d": "M15 21v-4h4M8 8h8M8 12h8M8 16h3",
+          "stroke": "#ffffff",
+          "width": 1.7
+        }
+      ]
+    }
+  },
+  "sha256": "02a37c237a7c4b4a86b767bf78610f2d9a83385d92cadeb83456b587879ccf4a"
+}

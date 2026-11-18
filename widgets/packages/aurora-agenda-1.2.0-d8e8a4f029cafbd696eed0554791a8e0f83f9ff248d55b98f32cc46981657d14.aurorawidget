@@ -1,0 +1,81 @@
+{
+  "format": "aurora-widget",
+  "schemaVersion": 1,
+  "widget": {
+    "id": "aurora-agenda",
+    "version": "1.2.0",
+    "name": {
+      "ko-KR": "일정",
+      "en-US": "Agenda",
+      "ja-JP": "予定",
+      "zh-CN": "日程",
+      "zh-TW": "行程",
+      "ru-RU": "Расписание",
+      "pt-BR": "Agenda"
+    },
+    "api": {
+      "provider": "agenda",
+      "cost": "free",
+      "documentation": "https://developers.google.com/workspace/calendar/api/guides/quota",
+      "attribution": "Google Calendar",
+      "endpoint": "https://www.googleapis.com/calendar/v3/calendars/{calendarId}/events",
+      "authorization": "google-oauth-pkce",
+      "scopes": [
+        "https://www.googleapis.com/auth/calendar.events.readonly"
+      ],
+      "refreshSeconds": 60,
+      "holidays": {
+        "country": "KR",
+        "source": "Google public holidays (official only)",
+        "endpoint": "https://calendar.google.com/calendar/ical/ko.south_korea.official%23holiday%40group.v.calendar.google.com/public/basic.ics",
+        "refreshSeconds": 86400
+      }
+    },
+    "icon": "agenda",
+    "size": {
+      "w": 2,
+      "h": 3
+    },
+    "minSize": {
+      "w": 2,
+      "h": 2
+    },
+    "maxSize": {
+      "w": 4,
+      "h": 8
+    },
+    "fields": [
+      {
+        "bind": "value",
+        "size": 0.2
+      },
+      {
+        "bind": "date",
+        "size": 0.11
+      },
+      {
+        "bind": "events",
+        "size": 0.11
+      },
+      {
+        "bind": "status",
+        "size": 0.09
+      }
+    ],
+    "artwork": {
+      "icon": [
+        {
+          "d": "M5 4h14v17H5Z",
+          "stroke": "#ffffff",
+          "width": 1.7
+        },
+        {
+          "d": "M9 2v4M15 2v4M8 10h2M12 10h4M8 14h2M12 14h4M8 18h2M12 18h4",
+          "stroke": "#ffffff",
+          "width": 1.7
+        }
+      ]
+    }
+  },
+  "sha256": "be25ae25d6cbbf916182976594bb8e4fbeb8088dae70bce89343ebd7dd4581c5"
+}

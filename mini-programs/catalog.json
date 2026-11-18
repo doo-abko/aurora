@@ -1,0 +1,36 @@
+{
+  "format": "aurora-mini-catalog",
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "blue-aquarium",
+      "name": {
+        "ko-KR": "블루 아쿠아리움",
+        "en-US": "Blue Aquarium"
+      },
+      "version": "1.1.0",
+      "url": "packages/blue-aquarium-1.1.0-40846cfdd1867bf53821bc6abb0004cc0a5b16e2c69114022706d8408c17bb53.auroramini",
+      "sha256": "40846cfdd1867bf53821bc6abb0004cc0a5b16e2c69114022706d8408c17bb53"
+    },
+    {
+      "id": "galaxy-star",
+      "name": {
+        "ko-KR": "갤럭시스타",
+        "en-US": "Galaxy Star"
+      },
+      "version": "1.1.0",
+      "url": "packages/galaxy-star-1.1.0-11dd86041894ece597734cd22ddb82775e6c30c7c84d69b4590fdeb37689d64b.auroramini",
+      "sha256": "11dd86041894ece597734cd22ddb82775e6c30c7c84d69b4590fdeb37689d64b"
+    },
+    {
+      "id": "little-room-cat",
+      "name": {
+        "ko-KR": "작은방 고양이",
+        "en-US": "Little Room Cat"
+      },
+      "version": "1.1.0",
+      "url": "packages/little-room-cat-1.1.0-c2bda869001f7234e5c844b9ecf81a0545ea1f891d2f459ddc67fed0662230cc.auroramini",
+      "sha256": "c2bda869001f7234e5c844b9ecf81a0545ea1f891d2f459ddc67fed0662230cc"
+    }
+  ]
+}
