@@ -31,6 +31,33 @@
       "version": "1.1.0",
       "url": "packages/little-room-cat-1.1.0-c2bda869001f7234e5c844b9ecf81a0545ea1f891d2f459ddc67fed0662230cc.auroramini",
       "sha256": "c2bda869001f7234e5c844b9ecf81a0545ea1f891d2f459ddc67fed0662230cc"
+    },
+    {
+      "id": "aurora-ambient-orbits",
+      "name": {
+        "ko-KR": "앰비언트 오비트",
+        "en-US": "Ambient Orbits"
+      },
+      "category": "mini",
+      "description": {
+        "en-US": "A calm animated scene composed of editable objects.",
+        "ko-KR": "개별 오브젝트로 구성한 차분한 애니메이션입니다."
+      },
+      "thumbnail": {
+        "url": "thumbnails/8ef79f62a096b511b172c15600ff05183c6bbf90f9d74a11f6c4fcc521dcce7b.png",
+        "sha256": "8ef79f62a096b511b172c15600ff05183c6bbf90f9d74a11f6c4fcc521dcce7b",
+        "bytes": 28896
+      },
+      "bytes": 5807,
+      "version": "1.0.0",
+      "url": "packages/aurora-ambient-orbits-1.0.0.auroramini",
+      "sha256": "7b604098def0a319e5f8809d6d219f6d97debe212eed9140631386803ffb58f7",
+      "metadata": {
+        "creator": "AURORA Admin",
+        "createdAt": "2026-11-19T14:45:32.010Z",
+        "updatedAt": "2026-11-19T14:45:32.170Z"
+      },
+      "minAppVersion": "0.1.76"
     }
   ]
 }

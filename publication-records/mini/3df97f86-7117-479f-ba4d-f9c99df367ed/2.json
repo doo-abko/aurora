@@ -1,0 +1,29 @@
+{
+  "documentId": "3df97f86-7117-479f-ba4d-f9c99df367ed",
+  "revision": 2,
+  "kind": "mini",
+  "title": "앰비언트 오비트",
+  "version": "1.0.0",
+  "metadata": {
+    "creator": "AURORA Admin",
+    "createdAt": "2026-11-19T14:45:32.010Z",
+    "updatedAt": "2026-11-19T14:45:32.170Z"
+  },
+  "files": [
+    {
+      "path": "mini-programs/packages/aurora-ambient-orbits-1.0.0.auroramini",
+      "sha256": "7b604098def0a319e5f8809d6d219f6d97debe212eed9140631386803ffb58f7",
+      "bytes": 5807
+    },
+    {
+      "path": "mini-programs/thumbnails/8ef79f62a096b511b172c15600ff05183c6bbf90f9d74a11f6c4fcc521dcce7b.png",
+      "sha256": "8ef79f62a096b511b172c15600ff05183c6bbf90f9d74a11f6c4fcc521dcce7b",
+      "bytes": 28896
+    },
+    {
+      "path": "mini-programs/catalog.json",
+      "sha256": "7331e24a3839545c2d82d2adb4c86c49179248ca7cfacbbeafc13004a6166743",
+      "bytes": 2183
+    }
+  ]
+}

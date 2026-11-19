@@ -1,0 +1,238 @@
+{
+  "format": "aurora-mini",
+  "schemaVersion": 1,
+  "program": {
+    "id": "aurora-ambient-orbits",
+    "version": "1.0.0",
+    "engine": "sandbox",
+    "name": {
+      "ko-KR": "앰비언트 오비트",
+      "en-US": "Ambient Orbits"
+    },
+    "assets": {},
+    "code": "function render({ctx,width,height}){ctx.fillStyle=\"#101724\";ctx.fillRect(0,0,width,height)}",
+    "runtimeVersion": 1,
+    "designs": {
+      "square": {
+        "width": 600,
+        "height": 600,
+        "background": "#00000000",
+        "nodes": [
+          {
+            "id": "orb",
+            "type": "ellipse",
+            "x": 90,
+            "y": 108,
+            "w": 240,
+            "h": 240,
+            "color": "#78b2ff",
+            "opacity": 0.75,
+            "rotation": 0,
+            "radius": 0,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "float",
+              "duration": 6500,
+              "amount": 35
+            }
+          },
+          {
+            "id": "orb2",
+            "type": "ellipse",
+            "x": 270,
+            "y": 240,
+            "w": 180,
+            "h": 180,
+            "color": "#bd9bfa",
+            "opacity": 0.6,
+            "rotation": 0,
+            "radius": 0,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "pulse",
+              "duration": 9000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "title",
+            "type": "text",
+            "x": 60,
+            "y": 480,
+            "w": 480,
+            "h": 48,
+            "color": "#b6c7df",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "AMBIENT",
+            "bind": "",
+            "fontSize": 28,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "center",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          }
+        ]
+      },
+      "portrait": {
+        "width": 480,
+        "height": 960,
+        "background": "#00000000",
+        "nodes": [
+          {
+            "id": "orb",
+            "type": "ellipse",
+            "x": 72,
+            "y": 172.79999999999998,
+            "w": 192,
+            "h": 192,
+            "color": "#78b2ff",
+            "opacity": 0.75,
+            "rotation": 0,
+            "radius": 0,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "float",
+              "duration": 6500,
+              "amount": 35
+            }
+          },
+          {
+            "id": "orb2",
+            "type": "ellipse",
+            "x": 216,
+            "y": 384,
+            "w": 144,
+            "h": 144,
+            "color": "#bd9bfa",
+            "opacity": 0.6,
+            "rotation": 0,
+            "radius": 0,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "pulse",
+              "duration": 9000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "title",
+            "type": "text",
+            "x": 48,
+            "y": 768,
+            "w": 384,
+            "h": 48,
+            "color": "#b6c7df",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "AMBIENT",
+            "bind": "",
+            "fontSize": 28,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "center",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          }
+        ]
+      },
+      "wide": {
+        "width": 960,
+        "height": 540,
+        "background": "#00000000",
+        "nodes": [
+          {
+            "id": "orb",
+            "type": "ellipse",
+            "x": 144,
+            "y": 97.2,
+            "w": 384,
+            "h": 384,
+            "color": "#78b2ff",
+            "opacity": 0.75,
+            "rotation": 0,
+            "radius": 0,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "float",
+              "duration": 6500,
+              "amount": 35
+            }
+          },
+          {
+            "id": "orb2",
+            "type": "ellipse",
+            "x": 432,
+            "y": 216,
+            "w": 288,
+            "h": 288,
+            "color": "#bd9bfa",
+            "opacity": 0.6,
+            "rotation": 0,
+            "radius": 0,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "pulse",
+              "duration": 9000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "title",
+            "type": "text",
+            "x": 96,
+            "y": 432,
+            "w": 768,
+            "h": 48,
+            "color": "#b6c7df",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "AMBIENT",
+            "bind": "",
+            "fontSize": 28,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "center",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          }
+        ]
+      }
+    },
+    "images": {},
+    "metadata": {
+      "creator": "AURORA Admin",
+      "createdAt": "2026-11-19T14:45:32.010Z",
+      "updatedAt": "2026-11-19T14:45:32.170Z"
+    }
+  },
+  "assets": {}
+}
