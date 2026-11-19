@@ -10,7 +10,18 @@
       },
       "version": "1.0.1",
       "url": "packages/aurora-blue-1.0.1-3030e7cf27360e7f8673ce5418ae4ff0deb3d7cabffa0913562a3934d5353d1e.auroratheme",
-      "sha256": "3030e7cf27360e7f8673ce5418ae4ff0deb3d7cabffa0913562a3934d5353d1e"
+      "sha256": "3030e7cf27360e7f8673ce5418ae4ff0deb3d7cabffa0913562a3934d5353d1e",
+      "category": "theme",
+      "bytes": 926,
+      "description": {
+        "en-US": "Aurora blue — a ready-to-use display theme.",
+        "ko-KR": "Aurora blue 디스플레이 테마입니다."
+      },
+      "thumbnail": {
+        "url": "thumbnails/c5cbbafb92b188f39df16442ce5745bd28dc23f6fdf4f57410c7cb46c7ed1f3c.png",
+        "sha256": "c5cbbafb92b188f39df16442ce5745bd28dc23f6fdf4f57410c7cb46c7ed1f3c",
+        "bytes": 15625
+      }
     },
     {
       "id": "midnight",
@@ -20,7 +31,18 @@
       },
       "version": "1.0.1",
       "url": "packages/midnight-1.0.1-2f9f2ce3c4c5aeeb8da2f848f7e3a16c2a4f14fc82da786a5c6f8c822c21c21a.auroratheme",
-      "sha256": "2f9f2ce3c4c5aeeb8da2f848f7e3a16c2a4f14fc82da786a5c6f8c822c21c21a"
+      "sha256": "2f9f2ce3c4c5aeeb8da2f848f7e3a16c2a4f14fc82da786a5c6f8c822c21c21a",
+      "category": "theme",
+      "bytes": 914,
+      "description": {
+        "en-US": "Midnight — a ready-to-use display theme.",
+        "ko-KR": "Midnight 디스플레이 테마입니다."
+      },
+      "thumbnail": {
+        "url": "thumbnails/d4634369553d2810325ffdd275c9c10f5527304d54838e9e9f48a270e3108516.png",
+        "sha256": "d4634369553d2810325ffdd275c9c10f5527304d54838e9e9f48a270e3108516",
+        "bytes": 15505
+      }
     },
     {
       "id": "warm-sand",
@@ -30,7 +52,18 @@
       },
       "version": "1.0.1",
       "url": "packages/warm-sand-1.0.1-3ca63f2d7e91d3a53347337d1b5ae09444364021ef060d69eaa18b65e547a761.auroratheme",
-      "sha256": "3ca63f2d7e91d3a53347337d1b5ae09444364021ef060d69eaa18b65e547a761"
+      "sha256": "3ca63f2d7e91d3a53347337d1b5ae09444364021ef060d69eaa18b65e547a761",
+      "category": "theme",
+      "bytes": 918,
+      "description": {
+        "en-US": "Warm sand — a ready-to-use display theme.",
+        "ko-KR": "Warm sand 디스플레이 테마입니다."
+      },
+      "thumbnail": {
+        "url": "thumbnails/133ae9d8ccfcc98303f95cffa22b30463fc6d74e1185c7e0aa759cf55b89469e.png",
+        "sha256": "133ae9d8ccfcc98303f95cffa22b30463fc6d74e1185c7e0aa759cf55b89469e",
+        "bytes": 15433
+      }
     },
     {
       "id": "aurora-studio-dashboard",

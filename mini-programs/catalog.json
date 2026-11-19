@@ -10,7 +10,18 @@
       },
       "version": "1.1.0",
       "url": "packages/blue-aquarium-1.1.0-40846cfdd1867bf53821bc6abb0004cc0a5b16e2c69114022706d8408c17bb53.auroramini",
-      "sha256": "40846cfdd1867bf53821bc6abb0004cc0a5b16e2c69114022706d8408c17bb53"
+      "sha256": "40846cfdd1867bf53821bc6abb0004cc0a5b16e2c69114022706d8408c17bb53",
+      "category": "mini",
+      "bytes": 527375,
+      "description": {
+        "en-US": "Blue Aquarium — an animated space for your display.",
+        "ko-KR": "블루 아쿠아리움 화면 속에서 움직이는 미니프로그램입니다."
+      },
+      "thumbnail": {
+        "url": "thumbnails/1c8e3dda7937be6d281ddca8893594998a75cb16be2cdef7844a99d2bc0b6c59.png",
+        "sha256": "1c8e3dda7937be6d281ddca8893594998a75cb16be2cdef7844a99d2bc0b6c59",
+        "bytes": 629481
+      }
     },
     {
       "id": "galaxy-star",
@@ -20,7 +31,18 @@
       },
       "version": "1.1.0",
       "url": "packages/galaxy-star-1.1.0-11dd86041894ece597734cd22ddb82775e6c30c7c84d69b4590fdeb37689d64b.auroramini",
-      "sha256": "11dd86041894ece597734cd22ddb82775e6c30c7c84d69b4590fdeb37689d64b"
+      "sha256": "11dd86041894ece597734cd22ddb82775e6c30c7c84d69b4590fdeb37689d64b",
+      "category": "mini",
+      "bytes": 816726,
+      "description": {
+        "en-US": "Galaxy Star — an animated space for your display.",
+        "ko-KR": "갤럭시스타 화면 속에서 움직이는 미니프로그램입니다."
+      },
+      "thumbnail": {
+        "url": "thumbnails/b357dd939989d1cada51b1913333167eacb8b1567ee50d9e86e852969b3aa312.png",
+        "sha256": "b357dd939989d1cada51b1913333167eacb8b1567ee50d9e86e852969b3aa312",
+        "bytes": 507524
+      }
     },
     {
       "id": "little-room-cat",
@@ -30,7 +52,18 @@
       },
       "version": "1.1.0",
       "url": "packages/little-room-cat-1.1.0-c2bda869001f7234e5c844b9ecf81a0545ea1f891d2f459ddc67fed0662230cc.auroramini",
-      "sha256": "c2bda869001f7234e5c844b9ecf81a0545ea1f891d2f459ddc67fed0662230cc"
+      "sha256": "c2bda869001f7234e5c844b9ecf81a0545ea1f891d2f459ddc67fed0662230cc",
+      "category": "mini",
+      "bytes": 11120697,
+      "description": {
+        "en-US": "Little Room Cat — an animated space for your display.",
+        "ko-KR": "작은방 고양이 화면 속에서 움직이는 미니프로그램입니다."
+      },
+      "thumbnail": {
+        "url": "thumbnails/730430ae6e94703e810be267b5f1d68e24c63cd086af62878e257321b4be2934.png",
+        "sha256": "730430ae6e94703e810be267b5f1d68e24c63cd086af62878e257321b4be2934",
+        "bytes": 785195
+      }
     },
     {
       "id": "aurora-ambient-orbits",
