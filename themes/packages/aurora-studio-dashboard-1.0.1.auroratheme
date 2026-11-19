@@ -1,0 +1,407 @@
+{
+  "format": "aurora-device-theme",
+  "schemaVersion": 1,
+  "packageId": "aurora-studio-dashboard",
+  "version": "1.0.1",
+  "name": "Studio Dashboard",
+  "sourceId": "template",
+  "sourceSize": {
+    "width": 480,
+    "height": 480
+  },
+  "background": {
+    "schemaVersion": 1,
+    "name": "Studio Dashboard",
+    "designs": {
+      "square": {
+        "width": 600,
+        "height": 600,
+        "background": "#00000000",
+        "nodes": [
+          {
+            "id": "label",
+            "type": "text",
+            "x": 60,
+            "y": 60,
+            "w": 480,
+            "h": 40,
+            "color": "#93a6bd",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "CPU TEMPERATURE",
+            "bind": "",
+            "fontSize": 22,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "gauge",
+            "type": "gauge",
+            "x": 132,
+            "y": 150,
+            "w": 336.00000000000006,
+            "h": 300,
+            "color": "#6d9eff",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "binding": {
+              "source": "sensor",
+              "category": "cpu",
+              "metric": "temperature",
+              "sensorId": ""
+            },
+            "decimals": 1,
+            "unit": "",
+            "min": 0,
+            "max": 100,
+            "thickness": 18,
+            "endColor": "#bda0ff",
+            "style": "arc",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "value",
+            "type": "text",
+            "x": 120,
+            "y": 270,
+            "w": 360,
+            "h": 80,
+            "color": "#ffffff",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "",
+            "bind": "",
+            "fontSize": 58,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "center",
+            "italic": false,
+            "binding": {
+              "source": "sensor",
+              "category": "cpu",
+              "metric": "temperature",
+              "sensorId": ""
+            },
+            "decimals": 1,
+            "unit": "°C",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "brand",
+            "type": "text",
+            "x": 60,
+            "y": 491.99999999999994,
+            "w": 480,
+            "h": 36,
+            "color": "#93a6bd",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "AURORA",
+            "bind": "",
+            "fontSize": 20,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "center",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          }
+        ]
+      },
+      "portrait": {
+        "width": 480,
+        "height": 960,
+        "background": "#00000000",
+        "nodes": [
+          {
+            "id": "label",
+            "type": "text",
+            "x": 48,
+            "y": 96,
+            "w": 384,
+            "h": 40,
+            "color": "#93a6bd",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "CPU TEMPERATURE",
+            "bind": "",
+            "fontSize": 22,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "gauge",
+            "type": "gauge",
+            "x": 105.6,
+            "y": 240,
+            "w": 268.8,
+            "h": 268.8,
+            "color": "#6d9eff",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "binding": {
+              "source": "sensor",
+              "category": "cpu",
+              "metric": "temperature",
+              "sensorId": ""
+            },
+            "decimals": 1,
+            "unit": "",
+            "min": 0,
+            "max": 100,
+            "thickness": 18,
+            "endColor": "#bda0ff",
+            "style": "arc",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "value",
+            "type": "text",
+            "x": 96,
+            "y": 432,
+            "w": 288,
+            "h": 80,
+            "color": "#ffffff",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "",
+            "bind": "",
+            "fontSize": 58,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "center",
+            "italic": false,
+            "binding": {
+              "source": "sensor",
+              "category": "cpu",
+              "metric": "temperature",
+              "sensorId": ""
+            },
+            "decimals": 1,
+            "unit": "°C",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "brand",
+            "type": "text",
+            "x": 48,
+            "y": 787.1999999999999,
+            "w": 384,
+            "h": 36,
+            "color": "#93a6bd",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "AURORA",
+            "bind": "",
+            "fontSize": 20,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "center",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          }
+        ]
+      },
+      "wide": {
+        "width": 960,
+        "height": 540,
+        "background": "#00000000",
+        "nodes": [
+          {
+            "id": "label",
+            "type": "text",
+            "x": 96,
+            "y": 54,
+            "w": 768,
+            "h": 40,
+            "color": "#93a6bd",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "CPU TEMPERATURE",
+            "bind": "",
+            "fontSize": 22,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "gauge",
+            "type": "gauge",
+            "x": 211.2,
+            "y": 135,
+            "w": 537.6,
+            "h": 270,
+            "color": "#6d9eff",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "binding": {
+              "source": "sensor",
+              "category": "cpu",
+              "metric": "temperature",
+              "sensorId": ""
+            },
+            "decimals": 1,
+            "unit": "",
+            "min": 0,
+            "max": 100,
+            "thickness": 18,
+            "endColor": "#bda0ff",
+            "style": "arc",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "value",
+            "type": "text",
+            "x": 192,
+            "y": 243,
+            "w": 576,
+            "h": 80,
+            "color": "#ffffff",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "",
+            "bind": "",
+            "fontSize": 58,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "center",
+            "italic": false,
+            "binding": {
+              "source": "sensor",
+              "category": "cpu",
+              "metric": "temperature",
+              "sensorId": ""
+            },
+            "decimals": 1,
+            "unit": "°C",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "brand",
+            "type": "text",
+            "x": 96,
+            "y": 442.79999999999995,
+            "w": 768,
+            "h": 36,
+            "color": "#93a6bd",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "AURORA",
+            "bind": "",
+            "fontSize": 20,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "center",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          }
+        ]
+      }
+    },
+    "images": {},
+    "background": "#17191f",
+    "accent": "#79b5ff",
+    "format": "square",
+    "widgets": []
+  },
+  "widgets": {
+    "enabled": true,
+    "items": []
+  },
+  "mini": {
+    "enabled": false,
+    "programId": "little-room-cat",
+    "options": {},
+    "order": [],
+    "selected": []
+  },
+  "game": {
+    "enabled": false,
+    "packageId": "league-of-legends"
+  },
+  "assets": {},
+  "metadata": {
+    "creator": "AURORA Admin",
+    "createdAt": "2026-11-19T14:45:53.013Z",
+    "updatedAt": "2026-11-19T14:46:02.548Z"
+  }
+}

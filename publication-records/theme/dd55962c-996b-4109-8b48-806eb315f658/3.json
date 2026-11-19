@@ -1,0 +1,29 @@
+{
+  "documentId": "dd55962c-996b-4109-8b48-806eb315f658",
+  "revision": 3,
+  "kind": "theme",
+  "title": "Studio Dashboard",
+  "version": "1.0.1",
+  "metadata": {
+    "creator": "AURORA Admin",
+    "createdAt": "2026-11-19T14:45:53.013Z",
+    "updatedAt": "2026-11-19T14:46:02.548Z"
+  },
+  "files": [
+    {
+      "path": "themes/packages/aurora-studio-dashboard-1.0.1.auroratheme",
+      "sha256": "b55d06d5d82aca858e6411700fa53714c582d905d937ec845f2ed97cf6a8370e",
+      "bytes": 10180
+    },
+    {
+      "path": "themes/thumbnails/06edb04505e6515321764bd32f9f7be1bf08790a3b90e6abffb9b9d362d9bd3c.png",
+      "sha256": "06edb04505e6515321764bd32f9f7be1bf08790a3b90e6abffb9b9d362d9bd3c",
+      "bytes": 34964
+    },
+    {
+      "path": "themes/catalog.json",
+      "sha256": "d6316524082c74af695d8da14cd26ac92f92c78c2f2e2392e4350fb13769dee8",
+      "bytes": 2134
+    }
+  ]
+}
