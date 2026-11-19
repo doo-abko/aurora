@@ -1,0 +1,663 @@
+{
+  "format": "aurora-widget",
+  "schemaVersion": 1,
+  "widget": {
+    "id": "aurora-studio-clock",
+    "version": "1.0.1",
+    "name": {
+      "ko-KR": "스튜디오 시계",
+      "en-US": "Studio Clock"
+    },
+    "api": {
+      "provider": "clock",
+      "cost": "free",
+      "documentation": "",
+      "attribution": "",
+      "endpoint": null,
+      "authorization": "none",
+      "scopes": [],
+      "refreshSeconds": 0
+    },
+    "icon": "clock",
+    "size": {
+      "w": 2,
+      "h": 1
+    },
+    "minSize": {
+      "w": 1,
+      "h": 1
+    },
+    "maxSize": {
+      "w": 4,
+      "h": 8
+    },
+    "fields": [
+      {
+        "bind": "value",
+        "size": 0.35
+      },
+      {
+        "bind": "date",
+        "size": 0.16
+      }
+    ],
+    "artwork": {
+      "icon": [
+        {
+          "d": "M12 3a9 9 0 1 0 0 18a9 9 0 1 0 0-18",
+          "stroke": "#ffffff",
+          "width": 1.7
+        },
+        {
+          "d": "M12 7v5l3 2",
+          "stroke": "#ffffff",
+          "width": 1.7
+        }
+      ]
+    },
+    "designs": {
+      "2x2": {
+        "width": 320,
+        "height": 320,
+        "background": "#00000000",
+        "nodes": [
+          {
+            "id": "label",
+            "type": "text",
+            "x": 25.6,
+            "y": 32,
+            "w": 268.8,
+            "h": 30,
+            "color": "#93a6bd",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "STUDIO",
+            "bind": "",
+            "fontSize": 16,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "time",
+            "type": "text",
+            "x": 25.6,
+            "y": 96,
+            "w": 268.8,
+            "h": 89.60000000000001,
+            "color": "#ffffff",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "",
+            "bind": "time",
+            "fontSize": 70.4,
+            "fontFamily": "Segoe UI",
+            "weight": 600,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "x": 25.6,
+            "y": 208,
+            "w": 268.8,
+            "h": 40,
+            "color": "#a9b6c8",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "",
+            "bind": "date",
+            "fontSize": 20,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          }
+        ]
+      },
+      "2x3": {
+        "width": 320,
+        "height": 480,
+        "background": "#00000000",
+        "nodes": [
+          {
+            "id": "label",
+            "type": "text",
+            "x": 25.6,
+            "y": 48,
+            "w": 268.8,
+            "h": 30,
+            "color": "#93a6bd",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "STUDIO",
+            "bind": "",
+            "fontSize": 16,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "time",
+            "type": "text",
+            "x": 25.6,
+            "y": 144,
+            "w": 268.8,
+            "h": 134.4,
+            "color": "#ffffff",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "",
+            "bind": "time",
+            "fontSize": 70.4,
+            "fontFamily": "Segoe UI",
+            "weight": 600,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "x": 25.6,
+            "y": 312,
+            "w": 268.8,
+            "h": 40,
+            "color": "#a9b6c8",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "",
+            "bind": "date",
+            "fontSize": 20,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          }
+        ]
+      },
+      "2x4": {
+        "width": 320,
+        "height": 640,
+        "background": "#00000000",
+        "nodes": [
+          {
+            "id": "label",
+            "type": "text",
+            "x": 25.6,
+            "y": 64,
+            "w": 268.8,
+            "h": 30,
+            "color": "#93a6bd",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "STUDIO",
+            "bind": "",
+            "fontSize": 16,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "time",
+            "type": "text",
+            "x": 25.6,
+            "y": 192,
+            "w": 268.8,
+            "h": 179.20000000000002,
+            "color": "#ffffff",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "",
+            "bind": "time",
+            "fontSize": 70.4,
+            "fontFamily": "Segoe UI",
+            "weight": 600,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "x": 25.6,
+            "y": 416,
+            "w": 268.8,
+            "h": 40,
+            "color": "#a9b6c8",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "",
+            "bind": "date",
+            "fontSize": 20,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          }
+        ]
+      },
+      "3x3": {
+        "width": 480,
+        "height": 480,
+        "background": "#00000000",
+        "nodes": [
+          {
+            "id": "label",
+            "type": "text",
+            "x": 38.4,
+            "y": 48,
+            "w": 403.2,
+            "h": 30,
+            "color": "#93a6bd",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "STUDIO",
+            "bind": "",
+            "fontSize": 16,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "time",
+            "type": "text",
+            "x": 38.4,
+            "y": 144,
+            "w": 403.2,
+            "h": 134.4,
+            "color": "#ffffff",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "",
+            "bind": "time",
+            "fontSize": 105.6,
+            "fontFamily": "Segoe UI",
+            "weight": 600,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "x": 38.4,
+            "y": 312,
+            "w": 403.2,
+            "h": 40,
+            "color": "#a9b6c8",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "",
+            "bind": "date",
+            "fontSize": 20,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          }
+        ]
+      },
+      "3x4": {
+        "width": 480,
+        "height": 640,
+        "background": "#00000000",
+        "nodes": [
+          {
+            "id": "label",
+            "type": "text",
+            "x": 38.4,
+            "y": 64,
+            "w": 403.2,
+            "h": 30,
+            "color": "#93a6bd",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "STUDIO",
+            "bind": "",
+            "fontSize": 16,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "time",
+            "type": "text",
+            "x": 38.4,
+            "y": 192,
+            "w": 403.2,
+            "h": 179.20000000000002,
+            "color": "#ffffff",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "",
+            "bind": "time",
+            "fontSize": 105.6,
+            "fontFamily": "Segoe UI",
+            "weight": 600,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "x": 38.4,
+            "y": 416,
+            "w": 403.2,
+            "h": 40,
+            "color": "#a9b6c8",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "",
+            "bind": "date",
+            "fontSize": 20,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          }
+        ]
+      },
+      "4x2": {
+        "width": 640,
+        "height": 320,
+        "background": "#00000000",
+        "nodes": [
+          {
+            "id": "label",
+            "type": "text",
+            "x": 51.2,
+            "y": 32,
+            "w": 537.6,
+            "h": 30,
+            "color": "#93a6bd",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "STUDIO",
+            "bind": "",
+            "fontSize": 16,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "time",
+            "type": "text",
+            "x": 51.2,
+            "y": 96,
+            "w": 537.6,
+            "h": 89.60000000000001,
+            "color": "#ffffff",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "",
+            "bind": "time",
+            "fontSize": 80,
+            "fontFamily": "Segoe UI",
+            "weight": 600,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "x": 51.2,
+            "y": 208,
+            "w": 537.6,
+            "h": 40,
+            "color": "#a9b6c8",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "",
+            "bind": "date",
+            "fontSize": 20,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          }
+        ]
+      },
+      "4x4": {
+        "width": 640,
+        "height": 640,
+        "background": "#00000000",
+        "nodes": [
+          {
+            "id": "label",
+            "type": "text",
+            "x": 51.2,
+            "y": 64,
+            "w": 537.6,
+            "h": 30,
+            "color": "#93a6bd",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "STUDIO",
+            "bind": "",
+            "fontSize": 16,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "time",
+            "type": "text",
+            "x": 51.2,
+            "y": 192,
+            "w": 537.6,
+            "h": 179.20000000000002,
+            "color": "#ffffff",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "",
+            "bind": "time",
+            "fontSize": 140.8,
+            "fontFamily": "Segoe UI",
+            "weight": 600,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          },
+          {
+            "id": "date",
+            "type": "text",
+            "x": 51.2,
+            "y": 416,
+            "w": 537.6,
+            "h": 40,
+            "color": "#a9b6c8",
+            "opacity": 1,
+            "rotation": 0,
+            "radius": 0,
+            "text": "",
+            "bind": "date",
+            "fontSize": 20,
+            "fontFamily": "Segoe UI",
+            "weight": 500,
+            "align": "left",
+            "italic": false,
+            "decimals": 1,
+            "unit": "",
+            "animation": {
+              "type": "none",
+              "duration": 2000,
+              "amount": 12
+            }
+          }
+        ]
+      }
+    },
+    "images": {},
+    "metadata": {
+      "creator": "AURORA Admin",
+      "createdAt": "2026-11-19T14:45:10.849Z",
+      "updatedAt": "2026-11-19T14:45:21.750Z"
+    }
+  },
+  "sha256": "a8397680e005c46517a84a3e88d6dddb0f34882450b83a38e5d6386487ac547a"
+}

@@ -139,13 +139,13 @@
         "bytes": 12783
       },
       "bytes": 16269,
-      "version": "1.0.0",
-      "url": "packages/aurora-studio-clock-1.0.0.aurorawidget",
-      "sha256": "b317af4450a7bc86010d1df1bdcf67ad544bbd05d020e1f3b79f73ce1308e07d",
+      "version": "1.0.1",
+      "url": "packages/aurora-studio-clock-1.0.1.aurorawidget",
+      "sha256": "bf6b1822d2ec0860daf543fbc6ddf6c82da9b8ea00fb7ae6cf6950ab8779c2b9",
       "metadata": {
         "creator": "AURORA Admin",
         "createdAt": "2026-11-19T14:45:10.849Z",
-        "updatedAt": "2026-11-19T14:45:10.897Z"
+        "updatedAt": "2026-11-19T14:45:21.750Z"
       },
       "minAppVersion": "0.1.76"
     }
