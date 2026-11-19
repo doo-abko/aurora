@@ -1,0 +1,29 @@
+{
+  "documentId": "fd1d8279-4a2b-4b61-b108-492974584cfa",
+  "revision": 2,
+  "kind": "widget",
+  "title": "스튜디오 시계",
+  "version": "1.0.0",
+  "metadata": {
+    "creator": "AURORA Admin",
+    "createdAt": "2026-11-19T14:45:10.849Z",
+    "updatedAt": "2026-11-19T14:45:10.897Z"
+  },
+  "files": [
+    {
+      "path": "widgets/packages/aurora-studio-clock-1.0.0.aurorawidget",
+      "sha256": "b317af4450a7bc86010d1df1bdcf67ad544bbd05d020e1f3b79f73ce1308e07d",
+      "bytes": 16269
+    },
+    {
+      "path": "widgets/thumbnails/91fc0110ae39a3e571fc3eb38afa65dc7caa9574ba750304541e9d003c46db2b.png",
+      "sha256": "91fc0110ae39a3e571fc3eb38afa65dc7caa9574ba750304541e9d003c46db2b",
+      "bytes": 12783
+    },
+    {
+      "path": "widgets/catalog.json",
+      "sha256": "2934abd77737f9ef90e910a0bd6830fadfb3a3f7c7d58e0c14bfee847e9b9589",
+      "bytes": 5082
+    }
+  ]
+}
