@@ -31,6 +31,33 @@
       "version": "1.0.1",
       "url": "packages/warm-sand-1.0.1-3ca63f2d7e91d3a53347337d1b5ae09444364021ef060d69eaa18b65e547a761.auroratheme",
       "sha256": "3ca63f2d7e91d3a53347337d1b5ae09444364021ef060d69eaa18b65e547a761"
+    },
+    {
+      "id": "aurora-studio-dashboard",
+      "name": {
+        "ko-KR": "Studio Dashboard",
+        "en-US": "Studio Dashboard"
+      },
+      "category": "theme",
+      "description": {
+        "en-US": "A responsive CPU temperature dashboard using real hardware readings.",
+        "ko-KR": "실제 CPU 온도를 표시하는 대시보드입니다."
+      },
+      "thumbnail": {
+        "url": "thumbnails/06edb04505e6515321764bd32f9f7be1bf08790a3b90e6abffb9b9d362d9bd3c.png",
+        "sha256": "06edb04505e6515321764bd32f9f7be1bf08790a3b90e6abffb9b9d362d9bd3c",
+        "bytes": 34964
+      },
+      "bytes": 10180,
+      "version": "1.0.0",
+      "url": "packages/aurora-studio-dashboard-1.0.0.auroratheme",
+      "sha256": "7a3acec88ab017bd102491468d76625077949765e1513be3fb16e48ca003d873",
+      "metadata": {
+        "creator": "AURORA Admin",
+        "createdAt": "2026-11-19T14:45:53.013Z",
+        "updatedAt": "2026-11-19T14:45:53.065Z"
+      },
+      "minAppVersion": "0.1.76"
     }
   ]
 }
