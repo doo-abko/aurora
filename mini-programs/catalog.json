@@ -49,13 +49,13 @@
         "bytes": 28896
       },
       "bytes": 5807,
-      "version": "1.0.0",
-      "url": "packages/aurora-ambient-orbits-1.0.0.auroramini",
-      "sha256": "7b604098def0a319e5f8809d6d219f6d97debe212eed9140631386803ffb58f7",
+      "version": "1.0.1",
+      "url": "packages/aurora-ambient-orbits-1.0.1.auroramini",
+      "sha256": "6295e05236150596a7cabe39733d974690203d81bc327f76e23c3ebf8e1c25f2",
       "metadata": {
         "creator": "AURORA Admin",
         "createdAt": "2026-11-19T14:45:32.010Z",
-        "updatedAt": "2026-11-19T14:45:32.170Z"
+        "updatedAt": "2026-11-19T14:45:42.802Z"
       },
       "minAppVersion": "0.1.76"
     }
