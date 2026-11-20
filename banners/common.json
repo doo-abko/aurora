@@ -3,7 +3,7 @@
   "banners": [
     {
       "slot": "hero",
-      "image": "assets/hero-v1-30feadb13b5f83b7.png",
+      "image": "assets/hero-v2-06da563702f0b41f.png",
       "link": "https://www.abko.co.kr/",
       "alt": {
         "ko-KR": "AURORA",
@@ -24,115 +24,115 @@
         "pt-BR": "AURORA"
       },
       "description": {
-        "ko-KR": "나의 공간을 연결하는 하나의 경험",
-        "en-US": "One connected experience for your setup",
-        "ja-JP": "あなたの空間をつなぐ、一つの体験",
-        "zh-CN": "连接你的空间，体验统一掌控",
-        "zh-TW": "串連你的空間，體驗統一掌控",
-        "ru-RU": "Единое управление вашим пространством",
-        "pt-BR": "Uma experiência conectada para o seu espaço"
+        "ko-KR": "당신의 PC를, 더 당신답게.",
+        "en-US": "Make your PC feel like you.",
+        "ja-JP": "あなたのPCを、もっとあなたらしく。",
+        "zh-CN": "让你的电脑，更有你的风格。",
+        "zh-TW": "讓你的電腦，更有你的風格。",
+        "ru-RU": "Ваш ПК. Ваш характер.",
+        "pt-BR": "Seu PC, com a sua personalidade."
       },
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "slot": "card1",
-      "image": "assets/card1-v1-f8b896013fd68c9c.png",
+      "image": "assets/card1-v2-b9c2715c545d38a4.png",
       "link": "https://www.abko.co.kr/",
       "alt": {
-        "ko-KR": "나만의 디스플레이",
-        "en-US": "Your display, your style",
-        "ja-JP": "自分らしいディスプレイ",
-        "zh-CN": "你的屏幕，你的风格",
-        "zh-TW": "你的螢幕，你的風格",
-        "ru-RU": "Ваш экран, ваш стиль",
-        "pt-BR": "Sua tela, seu estilo"
+        "ko-KR": "다음 셋업의 시작",
+        "en-US": "Your next setup",
+        "ja-JP": "次のセットアップへ",
+        "zh-CN": "打造新桌面",
+        "zh-TW": "打造新桌面",
+        "ru-RU": "Новый сетап",
+        "pt-BR": "Seu próximo setup"
       },
       "title": {
-        "ko-KR": "나만의 디스플레이",
-        "en-US": "Your display, your style",
-        "ja-JP": "自分らしいディスプレイ",
-        "zh-CN": "你的屏幕，你的风格",
-        "zh-TW": "你的螢幕，你的風格",
-        "ru-RU": "Ваш экран, ваш стиль",
-        "pt-BR": "Sua tela, seu estilo"
+        "ko-KR": "다음 셋업의 시작",
+        "en-US": "Your next setup",
+        "ja-JP": "次のセットアップへ",
+        "zh-CN": "打造新桌面",
+        "zh-TW": "打造新桌面",
+        "ru-RU": "Новый сетап",
+        "pt-BR": "Seu próximo setup"
       },
       "description": {
-        "ko-KR": "작은 화면에 담는 나의 스타일",
-        "en-US": "A little screen, a personal touch",
-        "ja-JP": "小さな画面に、自分のスタイルを",
-        "zh-CN": "小屏幕，展现你的个性",
-        "zh-TW": "小螢幕，展現你的個性",
-        "ru-RU": "Маленький экран с вашим характером",
-        "pt-BR": "Uma pequena tela com a sua personalidade"
+        "ko-KR": "ABKO의 제품을 만나보세요.",
+        "en-US": "Explore hardware from ABKO.",
+        "ja-JP": "ABKOの製品をご覧ください。",
+        "zh-CN": "探索 ABKO 产品。",
+        "zh-TW": "探索 ABKO 產品。",
+        "ru-RU": "Откройте для себя ABKO.",
+        "pt-BR": "Explore os produtos ABKO."
       },
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "slot": "card2",
-      "image": "assets/card2-v1-7e6bc9dce67445cf.png",
-      "link": "https://www.abko.co.kr/",
+      "image": "assets/card2-v2-f9f90da88ac34970.png",
+      "link": "https://ncore.co.kr/bbs/data.php",
       "alt": {
-        "ko-KR": "완성하는 셋업",
-        "en-US": "Hardware for your space",
-        "ja-JP": "理想のセットアップ",
-        "zh-CN": "打造理想桌面",
-        "zh-TW": "打造理想桌面",
-        "ru-RU": "Завершите своё рабочее место",
-        "pt-BR": "Complete seu setup"
+        "ko-KR": "자료실 · 다운로드",
+        "en-US": "Downloads",
+        "ja-JP": "ダウンロード",
+        "zh-CN": "资料下载",
+        "zh-TW": "資料下載",
+        "ru-RU": "Загрузки",
+        "pt-BR": "Downloads"
       },
       "title": {
-        "ko-KR": "완성하는 셋업",
-        "en-US": "Hardware for your space",
-        "ja-JP": "理想のセットアップ",
-        "zh-CN": "打造理想桌面",
-        "zh-TW": "打造理想桌面",
-        "ru-RU": "Завершите своё рабочее место",
-        "pt-BR": "Complete seu setup"
+        "ko-KR": "자료실 · 다운로드",
+        "en-US": "Downloads",
+        "ja-JP": "ダウンロード",
+        "zh-CN": "资料下载",
+        "zh-TW": "資料下載",
+        "ru-RU": "Загрузки",
+        "pt-BR": "Downloads"
       },
       "description": {
-        "ko-KR": "내 공간과 어울리는 하드웨어",
-        "en-US": "Bring your setup together",
-        "ja-JP": "空間になじむハードウェア",
-        "zh-CN": "让硬件融入你的空间",
-        "zh-TW": "讓硬體融入你的空間",
-        "ru-RU": "Оборудование для вашего пространства",
-        "pt-BR": "Hardware que combina com seu espaço"
+        "ko-KR": "제품에 필요한 파일을 한곳에서.",
+        "en-US": "Find the files for your hardware.",
+        "ja-JP": "製品に必要なファイルを探す。",
+        "zh-CN": "查找产品所需文件。",
+        "zh-TW": "尋找產品所需檔案。",
+        "ru-RU": "Файлы для вашего оборудования.",
+        "pt-BR": "Encontre arquivos para seu hardware."
       },
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
     {
       "slot": "card3",
-      "image": "assets/card3-v1-084659c4d61147a6.png",
-      "link": "https://www.abko.co.kr/",
+      "image": "assets/card3-v2-882765440686fe18.png",
+      "link": "https://ncore.co.kr/bbs/support_AdviceList.php",
       "alt": {
-        "ko-KR": "ABKO와 함께",
-        "en-US": "Explore products and news",
-        "ja-JP": "ABKOとともに",
-        "zh-CN": "探索 ABKO",
-        "zh-TW": "探索 ABKO",
-        "ru-RU": "Откройте для себя ABKO",
-        "pt-BR": "Explore a ABKO"
+        "ko-KR": "무엇을 도와드릴까요?",
+        "en-US": "Here to help",
+        "ja-JP": "サポート",
+        "zh-CN": "需要帮助？",
+        "zh-TW": "需要協助？",
+        "ru-RU": "Нужна помощь?",
+        "pt-BR": "Precisa de ajuda?"
       },
       "title": {
-        "ko-KR": "ABKO와 함께",
-        "en-US": "Explore products and news",
-        "ja-JP": "ABKOとともに",
-        "zh-CN": "探索 ABKO",
-        "zh-TW": "探索 ABKO",
-        "ru-RU": "Откройте для себя ABKO",
-        "pt-BR": "Explore a ABKO"
+        "ko-KR": "무엇을 도와드릴까요?",
+        "en-US": "Here to help",
+        "ja-JP": "サポート",
+        "zh-CN": "需要帮助？",
+        "zh-TW": "需要協助？",
+        "ru-RU": "Нужна помощь?",
+        "pt-BR": "Precisa de ajuda?"
       },
       "description": {
-        "ko-KR": "새로운 제품과 소식을 만나보세요",
-        "en-US": "Discover the latest from ABKO",
-        "ja-JP": "新しい製品とニュースをチェック",
-        "zh-CN": "发现新品和最新资讯",
-        "zh-TW": "發現新品與最新消息",
-        "ru-RU": "Знакомьтесь с новинками и новостями",
-        "pt-BR": "Descubra novidades e produtos"
+        "ko-KR": "궁금한 점은 ABKO 고객지원으로.",
+        "en-US": "Get support from ABKO.",
+        "ja-JP": "ABKOがお手伝いします。",
+        "zh-CN": "联系 ABKO 客户支持。",
+        "zh-TW": "聯絡 ABKO 客戶支援。",
+        "ru-RU": "Обратитесь в поддержку ABKO.",
+        "pt-BR": "Fale com o suporte ABKO."
       },
-      "version": "1.0.0"
+      "version": "1.1.0"
     }
   ],
-  "version": "1.0.1"
+  "version": "1.1.0"
 }
