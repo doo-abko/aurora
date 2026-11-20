@@ -1,0 +1,6 @@
+{
+  "format": "aurora-update",
+  "keyId": "abko-1e105243157faac0",
+  "payload": "{\"schemaVersion\":1,\"kind\":\"channel\",\"release\":null,\"platform\":\"win32\",\"arch\":\"x64\",\"publishedAt\":\"2026-11-20T14:45:15.613Z\",\"expiresAt\":\"2027-02-18T14:45:15.614Z\"}",
+  "signature": "RMjyuBkwlODQOi487zzPyr4YL/ZG1XBLuj0/2e+CBE5Nwx5S5AFm5KCZddHlnLTEIVwoWikE626mFKUqZ5vQDA=="
+}
